@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+/* App.css */
+.team-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 300px; /* or your preferred width */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background: #ffffff; /* or any color */
+}
+
+.team-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-header {
+  color: #000000; /* or any color */
+  margin-bottom: 15px;
+}
+
+.team-mascot {
+  color: #555555; /* or any color */
+  margin-bottom: 10px;
+}
+
+.team-location {
+  color: #777777; /* or any color */
+  font-size: 0.9em;
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.welcome-header {
+  font-size: 2.5em; /* Large font size */
+  color: #333; /* Dark grey color; adjust as needed */
+  padding: 20px 0; /* Some vertical padding */
+  text-align: center; /* Center align text */
+  margin-bottom: 30px; /* Spacing below the header */
+  background-color: #f8f8f8; /* Light grey background; adjust as needed */
+  border-bottom: 2px solid #eaeaea; /* A subtle bottom border */
+}
